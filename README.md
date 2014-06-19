@@ -1,6 +1,6 @@
 This is a modified Python API for AlchemyAPI (http://alchemyapi.com). I used to use the Python SDK given in their website. But, I thought
-of writing a simpler version with an easy to use interface. The changes are all directed towards myy ease of use. I have been using Alchemy API
-for information extraction tasks. The modified API has the following changes:
+of writing a simpler version with an easy to use interface. The changes are all directed towards my ease of use. Hope it is useful to others 
+as well. I have been using Alchemy API for information extraction tasks. The modified API has the following changes:
 
 1. Added function for setting the respnse format (JSON/XML/RDF) with the default being the JSON  format. 
 
@@ -11,11 +11,9 @@ please consult https://github.com/kennethreitz/requests
 
 3. The error messages have been made more informative. 
 
-4 A counter is added in order to track the number of requests sent to the AlchemyAPI server. This helps in controlling the limits imposed.
+4. A counter is added in order to track the number of requests sent to the AlchemyAPI server. This helps in controlling the limits imposed.
 
 5. When the response format is set to JSON then a python dictionary is returned. This makes it easier to parse and store the response as Python objects.
-
-
 
 The API does not have all the features. Currently, it has the following capabilities:
 
