@@ -1,8 +1,10 @@
 '''
 Created on Jun 12, 2014
 
-@author: cisstudent
+@author: Debanjan Mahata
 '''
+
+__author__ = "Debanjan Mahata"
 
 import requests
 import sys
