@@ -226,7 +226,7 @@ def sentiment(flavor, data, options={}):
     
 
 
-def sentiment_targeted(self, flavor, data, target, options={}):
+def sentiment_targeted(flavor, data, target, options={}):
     """
     Calculates the targeted sentiment for text, a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/sentiment-analysis/
@@ -284,7 +284,7 @@ def sentiment_targeted(self, flavor, data, target, options={}):
 
 
 
-def author(self, flavor, data, options={}):
+def author(flavor, data, options={}):
     """
     Extracts the author from a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/author-extraction/
@@ -338,7 +338,7 @@ def author(self, flavor, data, options={}):
 
 
 
-def keywords(self, flavor, data, options={}):
+def keywords(flavor, data, options={}):
     """
     Extracts the keywords from text, a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/keyword-extraction/
@@ -394,7 +394,7 @@ def keywords(self, flavor, data, options={}):
 
 
         
-def concepts(self, flavor, data, options={}):
+def concepts(flavor, data, options={}):
     """
     Tags the concepts for text, a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/concept-tagging/
@@ -441,7 +441,7 @@ def concepts(self, flavor, data, options={}):
 
         
 
-def entities(self, flavor, data, options={}):
+def entities(flavor, data, options={}):
     """
     Extracts the entities for text, a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/entity-extraction/ 
@@ -498,7 +498,7 @@ def entities(self, flavor, data, options={}):
 
 
 
-def category(self, flavor, data, options={}):
+def category(flavor, data, options={}):
     """
     Categorizes the text for text, a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/text-categorization/
@@ -549,7 +549,7 @@ def category(self, flavor, data, options={}):
 
 
 
-def relations(self, flavor, data, options={}):
+def relations(flavor, data, options={}):
     """
     Extracts the relations for text, a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/relation-extraction/ 
@@ -609,7 +609,7 @@ def relations(self, flavor, data, options={}):
 
 
 
-def language(self, flavor, data, options={}):
+def language(flavor, data, options={}):
     """
     Detects the language for text, a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/api/language-detection/ 
@@ -662,7 +662,7 @@ def language(self, flavor, data, options={}):
 
 
 
-def text_clean(self, flavor, data, options={}):
+def text_clean(flavor, data, options={}):
     """
     Extracts the cleaned text (removes ads, navigation, etc.) for text, a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/text-extraction/
@@ -717,7 +717,7 @@ def text_clean(self, flavor, data, options={}):
 
 
 
-def text_raw(self, flavor, data, options={}):
+def text_raw(flavor, data, options={}):
     """
     Extracts the raw text (includes ads, navigation, etc.) for a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/text-extraction/ 
@@ -770,7 +770,7 @@ def text_raw(self, flavor, data, options={}):
 
 
 
-def text_title(self, flavor, data, options={}):
+def text_title(flavor, data, options={}):
     """
     Extracts the title for a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/text-extraction/ 
@@ -823,7 +823,7 @@ def text_title(self, flavor, data, options={}):
 
 
 
-def microformats(self, flavor, data, options={}):
+def microformats(flavor, data, options={}):
     """
     Parses the microformats for a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/microformats-parsing/
@@ -875,7 +875,7 @@ def microformats(self, flavor, data, options={}):
 
 
 
-def feeds(self, flavor, data, options={}):
+def feeds(flavor, data, options={}):
     """
     Detects the RSS/ATOM feeds for a URL or HTML.
     For an overview, please refer to: http://www.alchemyapi.com/products/features/feed-detection/ 
